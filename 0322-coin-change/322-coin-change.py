@@ -12,7 +12,3 @@ class Solution:
                     dp[i] = min(1 + dp[i - c], dp[i])
 
         return dp[-1] if dp[-1] != float("inf") else -1
-
-        
-
-            
